@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anu's Cake</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Celebrate your special occasions with a homemade delicious cake">
+        <meta name="keywords" content="cake,birthday,wedding">
+        <meta name="author" content="Kenny Heenatigala">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header><h4>Celebrate your special occasions with a homemade delicious cake</h4></header>
+        <img width = "10%" src="source/logo.jpg">
+        <main>
+            <!--This is where we create the form for login-->
+            <section>
+                <form method="POST" action="login.php">
+                    <h4>Log in</h4>
+                    <input name="email address" placeholder="email address"><br />
+                    <input name="password" placeholder="password"><br />
+                    <input name="remember login details" type ="checkbox" value="remember me"/> Remember me <br />
+                    <button type="submit">Login</button>
+                    <!--we have moved the sign up section to a different form to open easier in php-->
+                </form>
+                <form method="POST" action="sign-up.php">
+                    <button type="submit">Create an account</button>
+                </form>
+            </section>
+            <!--This is where we add the cake categories that we need to add in the website-->
+            <section>
+                <div>Cakes that we need to show in ordered list</div>
+                <ul>
+                    <li>Birthday Cakes</li>
+                    <li>Anniversary Cakes</li>
+                    <li>Cupcakes</li>
+                    <li>Wedding Cakes</li>
+                    <li>Engagement Cakes</li>
+                    <li>Customized Cakes</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            &copy; Copyright &nbsp;2021
+        </footer>
+    </body>
+</html>
