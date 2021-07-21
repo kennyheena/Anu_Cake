@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Anu's Cake</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Celebrate your special occasions with a homemade delicious cake">
-        <meta name="keywords" content="cake,birthday,wedding">
-        <meta name="author" content="Kenny Heenatigala">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header><h4>Celebrate your special occasions with a homemade delicious cake</h4></header>
-        <img width = "10%" src="source/logo.jpg">
-        <main>
-            <!--This is where we create the form for login-->
-            <section>
-                <form method="POST" action="login.php">
-                    <h4>Log in</h4>
-                    <input name="email address" placeholder="email address"><br />
-                    <input name="password" placeholder="password"><br />
-                    <input name="remember login details" type ="checkbox" value="remember me"/> Remember me <br />
-                    <button type="submit">Login</button>
-                    <!--we have moved the sign up section to a different form to open easier in php-->
-                </form>
-                <form method="POST" action="sign-up.php">
-                    <button type="submit">Create an account</button>
-                </form>
-            </section>
-            <!--This is where we add the cake categories that we need to add in the website-->
-            <section>
-                <div>Cakes that we need to show in ordered list</div>
-                <ul>
-                    <li>Birthday Cakes</li>
-                    <li>Anniversary Cakes</li>
-                    <li>Cupcakes</li>
-                    <li>Wedding Cakes</li>
-                    <li>Engagement Cakes</li>
-                    <li>Customized Cakes</li>
-                </ul>
-            </section>
-        </main>
+<head>
+    <title>Anu's Cake</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Celebrate your special occasions with a homemade delicious cake" />
+    <meta name="keywords" content="cake,birthday,wedding" />
+    <meta name="author" content="Kenny Heenatigala" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-        <footer>
-            &copy; Copyright &nbsp;2021
-        </footer>
-    </body>
+<body>
+    <header>
+        <img src="source/logo.jpg"/>
+        <nav>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shopping</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Shopping -->
+        <!--This is where we add the cake categories that we need to add in the website-->
+        <section>
+            <ul>
+                <li>Birthday Cakes</li>
+                <li>Anniversary Cakes</li>
+                <li>Cup Cakes</li>
+                <li>Wedding Cakes</li>
+                <li>Engagement Cakes</li>
+                <li>Customized Cakes</li>
+            </ul>
+        </section>
+
+                <!-- Contact us -->
+                <section>
+                    <h1>About</h1>
+                    <div>
+                        <img src="source/about-me.jpg"/>
+                    </div>
+                    <a>My name is Anuradha Heenatigala. I am a student of the famous cake artist Clemant. I have successfully completed the cake program and then started my own small business as a cake artist. Furthermore, by having many recommendations, the business grew little by little to be one of the most tastiest and nicest cakes in Ampitiya area in Kandy Sri Lanka. My ambition is to make a name in the cake industry in Sri Lanka and widen my business to many areas in Sri Lanka. Right now our deliveries are only to the Kandy area. It is expected to expand.</a>
+                </section>
+                
+                <!-- My Account -->
+                <!--This is where we create the form for login-->
+                <section>
+                    <form method="POST" action="login.php">
+                        <h4>Log in</h4>
+                        <input name="email address" placeholder="email address" /><br />
+                        <input type="password" name="password" placeholder="password" /><br />
+                        <input name="remember login details" type="checkbox" value="remember me" />
+                        Remember me <br />
+                        <button type="submit">Log in</button>
+                        <button type="submit">Create an account</button>
+                    </form>
+                </section>
+    </main>
+
+    <footer>&copy; Copyright &nbsp;2021</footer>
+</body>
+
 </html>
