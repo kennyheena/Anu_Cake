@@ -45,8 +45,14 @@ ul li a {
     padding: 0 20px 0 20px;
 }
 
+/*this is when it hover*/
 ul li a:hover   {
-    color: pink;
+    color: #FFC0CB;
+}
+
+/*this is for the cake category list and when we hover it will make it pink*/
+ul li:hover  {
+    color: #FFC0CB;
 }
 
 /*These are the cake thumbnails in a gridbox*/
@@ -71,4 +77,8 @@ article img {
     width: 100%;
     background-size: cover !important;
     background-position: center !important;
+}
+
+#insta-profile:hover {
+    color: #FF0000;
 }
