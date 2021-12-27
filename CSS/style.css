@@ -16,14 +16,18 @@ nav {
     background-color: #fff;
 }
 
+header {
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    border: 2px solid #000;
+}
+
 header img  {
     float: left;
     width: 100px;
-}
-
-section img {
-    width: 100px;
     height: 100px;
+    margin-right: 100px;
 }
 
 ul  {
@@ -37,6 +41,7 @@ ul li   {
 }
 
 ul li a {
+    margin: auto;
     display: block;
     text-decoration: none;
     font-size: 20px;
@@ -55,16 +60,27 @@ ul li:hover  {
     color: #FFC0CB;
 }
 
+#cake-margin   {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /*These are the cake thumbnails in a gridbox*/
 #cake-thumbnails {
-    width: 1000px;
-    margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 article {
     max-width: 33%;
     display: inline-block;
+    transition: background 1s;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 article img {
@@ -74,11 +90,44 @@ article img {
 
 .article-img {
     height: 200px;
-    width: 100%;
+    width: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
     background-size: cover !important;
     background-position: center !important;
+    border: 2px solid #000;
+}
+
+article:hover   {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .7);
+    background: #FFC0CB;
+}
+
+.article-img-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width: 200px;
+    font-size: medium;
 }
 
 #insta-profile:hover {
-    color: #FF0000;
+    color: #000;
+}
+
+.article-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.second-headers {
+    margin-left: 100px;
+    margin-left: 100px;
+}
+
+footer  {
+    margin-top: 100px;
+    text-align: center;
 }
